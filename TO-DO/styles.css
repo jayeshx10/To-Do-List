@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(0, 0, 0, 0.598);
+    text-align: center;
+}
+
+.navbar{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-inline-start: 100px;
+    margin-inline-end: 100px;
+}
+
+.container{
+    width: 500px;
+    height: auto;
+    border: 2px;
+    padding: 5px;
+    margin-left: 30%;
+    margin-top: 5%;
+    border: 2px solid red;
+    background-color: rgb(27, 19, 19);
+}
+
+
+.to-do-icon{
+    font-size: 30px;
+    margin: 5px;
+    padding-top: 10px;
+}
+
+#input{
+    width: 170px;
+    height: 20px;
+}
+
+#box{
+    height: auto;
+    width: 500px;
+    color: white;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+}
+
+.container li {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
